@@ -1,21 +1,11 @@
+
 <?xml version='1.0'?>
 <sdf version='1.6'>
   <model name="horse">
     <static>false</static>
     
     <link name="body">
-      <inertial>
-        <mass>50</mass>
-        <!-- Используем авто-вычисление через pose -->
-        <inertia>
-          <ixx>0.416</ixx>
-          <ixy>0</ixy>
-          <ixz>0</ixz>
-          <iyy>0.416</iyy>
-          <iyz>0</iyz>
-          <izz>0.416</izz>
-        </inertia>
-      </inertial>
+     
 
       <visual name="visual">
         <geometry>
@@ -24,16 +14,19 @@
             <scale> 0.3 0.3 0.3</scale>
           </mesh>
         </geometry>
+        <pose> 0 1.5 2 1.5707 0 0 </pose>
       </visual>
       
       <collision name="collision">
-        <geometry>
-          <mesh>
-            <uri>model://horse/mesh/horse.glb</uri>
-            <scale> 0.3 0.3 0.3</scale>
-          </mesh>
-        </geometry>
         
+        <pose> 0 0 1.5 0 0 0 </pose>
+        <geometry>
+          <cylinder>
+            <radius>1</radius>
+            <length>3</length>
+          </cylinder>
+        </geometry>
+
         <surface>
           <friction>
             <ode>

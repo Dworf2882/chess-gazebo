@@ -1,3 +1,4 @@
+
 <?xml version='1.0'?>
 <sdf version='1.6'>
   <model name="fort">
@@ -24,15 +25,17 @@
             <scale> 0.3 0.3 0.3</scale>
           </mesh>
         </geometry>
+        <pose> 0 0 1.6 1.5707 0 0</pose>
       </visual>
       
       <collision name="collision">
         <geometry>
-          <mesh>
-            <uri>model://fort/mesh/fort.glb</uri>
-            <scale> 0.3 0.3 0.3</scale>
-          </mesh>
+          <cylinder>
+            <radius>1</radius>
+            <length>3</length>
+          </cylinder>
         </geometry>
+        <pose> 0 0 1.6 0 0 0</pose>
         
         <surface>
           <friction>

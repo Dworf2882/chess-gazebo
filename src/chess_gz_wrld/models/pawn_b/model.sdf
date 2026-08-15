@@ -25,16 +25,19 @@
             <scale> 0.3 0.3 0.3</scale>
           </mesh>
         </geometry>
+        <pose> 0 0 0 1.5707 0 0 </pose>
       </visual>
       
       <collision name="collision">
-        <geometry>
-          <mesh>
-            <uri>model://pawn_b/meshes/pawn_b.glb</uri>
-            <scale> 0.3 0.3 0.3</scale>
-          </mesh>
-        </geometry>
         
+      <pose> 0 0 -.2 0 0 0 </pose>
+        <geometry>
+          <cylinder>
+            <radius>1</radius>
+            <length>2.5</length>
+          </cylinder>
+
+        </geometry>
         <surface>
           <friction>
             <ode>

@@ -24,14 +24,16 @@
             <scale> 0.3 0.3 0.3</scale>
           </mesh>
         </geometry>
+        <pose> 0 0 0 1.5707 0 0 </pose>
+
       </visual>
       
       <collision name="collision">
         <geometry>
-          <mesh>
-            <uri>model://idk_b/mesh/idk_b.glb</uri>
-            <scale> 0.3 0.3 0.3</scale>
-          </mesh>
+          <cylinder>
+            <radius>1</radius>
+            <length>3.9</length>
+          </cylinder>
         </geometry>
         
         <surface>
