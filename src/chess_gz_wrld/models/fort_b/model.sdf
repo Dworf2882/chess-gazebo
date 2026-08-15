@@ -1,0 +1,1 @@
+<?xml version="1.0" ?><sdf version="1.6"><model name="fort_b"><static>true</static><link name="link"><visual name="visual"><geometry><mesh><uri>model://fort_b/mesh/fort_b.gbl</uri></mesh></geometry></visual></link></model></sdf>

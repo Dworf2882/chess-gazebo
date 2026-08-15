@@ -79,7 +79,74 @@
     <include>
         <pose>0 0 0 1.57079632679 0 0</pose>
         <static>true</static>
-        <uri>model://chess</uri>
+        <uri>model://chess_board</uri>
     </include>
+  <!-- Белые фигуры (ставятся снизу, y = -2 ... -3) -->
+  <include>
+      <pose>-3 -2 0 0 0 0</pose>   <!-- Левая ладья -->
+      <uri>model://pawn</uri>
+  </include>
+  <include>
+      <pose>-2 -3 0 0 0 0</pose>   <!-- Конь -->
+      <uri>model://horse</uri>
+  </include>
+  <include>
+      <pose>-1 -2 0 0 0 0</pose>   <!-- Слон -->
+      <uri>model://idk</uri>
+  </include>
+  <include>
+      <pose>0 -3 0 0 0 0</pose>    <!-- Ферзь -->
+      <uri>model://queen</uri>
+  </include>
+  <include>
+      <pose>1 -2 0 0 0 0</pose>    <!-- Король -->
+      <uri>model://king</uri>
+  </include>
+  <include>
+      <pose>2 -3 0 0 0 0</pose>    <!-- Слон -->
+      <uri>model://idk_b</uri>     <!-- если это белый слон -->
+  </include>
+  <include>
+      <pose>3 -2 0 0 0 0</pose>    <!-- Конь -->
+      <uri>model://horse_b</uri>   <!-- если это белый конь -->
+  </include>
+  <include>
+      <pose>4 -3 0 0 0 0</pose>    <!-- Правая ладья -->
+      <uri>model://fort</uri>
+  </include>
+
+  <!-- Чёрные фигуры (ставятся сверху, y = 2 ... 3) -->
+  <include>
+      <pose>-3 2 0 0 0 0</pose>    <!-- Левая ладья чёрная -->
+      <uri>model://pawn_b</uri>
+  </include>
+  <include>
+      <pose>-2 3 0 0 0 0</pose>    <!-- Конь чёрный -->
+      <uri>model://horse_b</uri>
+  </include>
+  <include>
+      <pose>-1 2 0 0 0 0</pose>    <!-- Слон чёрный -->
+      <uri>model://idk_b</uri>
+  </include>
+  <include>
+      <pose>0 3 0 0 0 0</pose>     <!-- Ферзь чёрный -->
+      <uri>model://queen_b</uri>
+  </include>
+  <include>
+      <pose>1 2 0 0 0 0</pose>     <!-- Король чёрный -->
+      <uri>model://king_b</uri>
+  </include>
+  <include>
+      <pose>2 3 0 0 0 0</pose>     <!-- Слон чёрный -->
+      <uri>model://idk</uri>       <!-- если это чёрный слон -->
+  </include>
+  <include>
+      <pose>3 2 0 0 0 0</pose>     <!-- Конь чёрный -->
+      <uri>model://horse</uri>     <!-- если это чёрный конь -->
+  </include>
+  <include>
+      <pose>4 3 0 0 0 0</pose>     <!-- Правая ладья чёрная -->
+      <uri>model://fort_b</uri>
+  </include>
   </world>
 </sdf>
