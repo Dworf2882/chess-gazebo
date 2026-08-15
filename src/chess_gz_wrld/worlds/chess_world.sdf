@@ -107,10 +107,6 @@
       <uri>model://idk_b</uri>     <!-- если это белый слон -->
   </include>
   <include>
-      <pose>3 -2 0 0 0 0</pose>    <!-- Конь -->
-      <uri>model://horse_b</uri>   <!-- если это белый конь -->
-  </include>
-  <include>
       <pose>4 -3 0 0 0 0</pose>    <!-- Правая ладья -->
       <uri>model://fort</uri>
   </include>
@@ -125,24 +121,12 @@
       <uri>model://horse_b</uri>
   </include>
   <include>
-      <pose>-1 2 0 0 0 0</pose>    <!-- Слон чёрный -->
-      <uri>model://idk_b</uri>
-  </include>
-  <include>
       <pose>0 3 0 0 0 0</pose>     <!-- Ферзь чёрный -->
       <uri>model://queen_b</uri>
   </include>
   <include>
       <pose>1 2 0 0 0 0</pose>     <!-- Король чёрный -->
       <uri>model://king_b</uri>
-  </include>
-  <include>
-      <pose>2 3 0 0 0 0</pose>     <!-- Слон чёрный -->
-      <uri>model://idk</uri>       <!-- если это чёрный слон -->
-  </include>
-  <include>
-      <pose>3 2 0 0 0 0</pose>     <!-- Конь чёрный -->
-      <uri>model://horse</uri>     <!-- если это чёрный конь -->
   </include>
   <include>
       <pose>4 3 0 0 0 0</pose>     <!-- Правая ладья чёрная -->

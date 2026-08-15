@@ -21,7 +21,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://pawn/meshes/pawn_b.glb</uri>
+            <uri>model://pawn_b/meshes/pawn_b.glb</uri>
             <scale> 0.3 0.3 0.3</scale>
           </mesh>
         </geometry>
@@ -30,7 +30,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://pawn/meshes/pawn.glb</uri>
+            <uri>model://pawn_b/meshes/pawn_b.glb</uri>
             <scale> 0.3 0.3 0.3</scale>
           </mesh>
         </geometry>

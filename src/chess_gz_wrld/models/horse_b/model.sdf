@@ -1,1 +1,1 @@
-<?xml version="1.0" ?><sdf version="1.6"><model name="horse_b"><static>true</static><link name="link"><visual name="visual"><geometry><mesh><uri>model://horse_b/mesh/horse_b.gbl</uri></mesh></geometry></visual></link></model></sdf>
+<?xml version="1.0" ?><sdf version="1.6"><model name="horse_b"><static>true</static><link name="link"><visual name="visual"><geometry><mesh><uri>model://horse_b/mesh/horse_b.glb</uri></mesh></geometry></visual></link></model></sdf>

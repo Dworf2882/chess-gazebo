@@ -1,1 +1,1 @@
-<?xml version="1.0" ?><sdf version="1.6"><model name="queen"><static>true</static><link name="link"><visual name="visual"><geometry><mesh><uri>model://queen/mesh/queen.gbl</uri></mesh></geometry></visual></link></model></sdf>
+<?xml version="1.0" ?><sdf version="1.6"><model name="queen"><static>true</static><link name="link"><visual name="visual"><geometry><mesh><uri>model://queen/mesh/queen.glb</uri></mesh></geometry></visual></link></model></sdf>
