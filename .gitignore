@@ -1,0 +1,12 @@
+
+chache
+build
+install
+log
+.cache
+mav.parm
+mav.tlog
+mav.tlog.raw
+eeprom.bin
+terrain
+logs
