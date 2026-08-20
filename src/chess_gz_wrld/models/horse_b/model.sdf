@@ -15,12 +15,12 @@
             <scale> 0.3 0.3 0.3</scale>
           </mesh>
         </geometry>
-        <pose> 0 -1.5 2 1.5707 0 0 </pose>
+        <pose> 0 1.7 .4 1.5707 0 3.14 </pose>
       </visual>
       
       <collision name="collision">
         
-        <pose> 0 0 1.5 0 0 0 </pose>
+        <pose> 0 0 0 0 0 0 </pose>
         <geometry>
           <cylinder>
             <radius>1</radius>

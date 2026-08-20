@@ -24,16 +24,16 @@
             <scale> 0.2 0.2 0.2</scale>
           </mesh>
         </geometry>
-        <pose> 0 0 3 1.5707 0 0 </pose>
+        <pose> 0 0 0 1.5707 0 0 </pose>
 
       </visual>
       
       <collision name="collision">
-        <pose> 0 0 2.6 0 0 0 </pose>
+        <pose> 0 0 0 0 0 0 </pose>
         <geometry>
           <cylinder>
             <radius>1</radius>
-            <length>2.5</length>
+            <length>4</length>
           </cylinder>
         </geometry>
         

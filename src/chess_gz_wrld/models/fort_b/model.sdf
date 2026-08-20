@@ -4,6 +4,7 @@
     <static>false</static>
     
     <link name="body">
+      <pose> 0 0 0 1.5707 0 0</pose>
       <inertial>
         <mass>50</mass>
         <!-- Используем авто-вычисление через pose -->
@@ -24,26 +25,17 @@
             <scale> 0.3 0.3 0.3</scale>
           </mesh>
         </geometry>
-        <pose> 0 0 1.6 1.5707 0 0</pose>
       </visual>
       
       <collision name="collision">
         <geometry>
-          <cylinder>
-            <radius>1</radius>
-            <length>3</length>
-          </cylinder>
+          <mesh>
+            <uri>model://fort_b/mesh/fort_b.glb</uri>
+            <scale> 0.3 0.3 0.3</scale>
+          </mesh>
         </geometry>
-        <pose> 0 0 1.6 0 0 0</pose>
+
         
-        <surface>
-          <friction>
-            <ode>
-              <mu>0.8</mu>
-              <mu2>0.5</mu2>
-            </ode>
-          </friction>
-        </surface>
       </collision>
     </link>
     
