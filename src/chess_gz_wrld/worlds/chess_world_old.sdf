@@ -118,7 +118,7 @@
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//queen_b</uri>
       <name>queen_b</name>
-      <pose>-7.1842598915100098 -1.2445700168609619 -0.26656493544578552 0 0 0</pose>
+      <pose>-7.25 -0.9 2.6 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//king_b</uri>
