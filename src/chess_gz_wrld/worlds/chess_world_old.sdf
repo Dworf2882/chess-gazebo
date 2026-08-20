@@ -73,162 +73,162 @@
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//pawn</uri>
       <name>pawn</name>
-      <pose>4.9860692024230957 -7.2706398963928223 2.0499989505088183 -1.2162543611643625e-17 5.3604794845515767e-18 -3.3989181063412666e-18</pose>
+      <pose>4.9860692024230957 -7.2706398963928223 2.232990026473999 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//horse</uri>
       <name>horse</name>
-      <pose>7.0949903808423702 -5.0105494040830258 2.5271634652659269 0.0001847855501139906 7.0689685913027237e-05 3.9108822691207895e-06</pose>
+      <pose>7.0948677062988281 -4.9772200584411621 0 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//idk</uri>
       <name>idk</name>
-      <pose>6.8145045824000468 2.9515455771384245 2.5500000164216656 9.3905049023653781e-09 2.410271542960237e-07 0.00082196399500908445</pose>
+      <pose>6.7970900535583496 2.9522299766540527 2.7509803771972656 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//queen</uri>
       <name>queen</name>
-      <pose>7.2721700668334961 -1.0247199535369873 2.599998969801252 1.6604900040057093e-16 6.6604349452645046e-17 5.9860625223821383e-17</pose>
+      <pose>7.2721700668334961 -1.0247199535369873 0.26176083087921143 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//king</uri>
       <name>king</name>
-      <pose>7.0202298164367676 0.96175199747085571 2.5999989806165922 -4.0134788989542839e-17 2.6302440778516213e-17 -2.4141594686120115e-17</pose>
+      <pose>7.0202298164367676 0.96175199747085571 1.3695477247238159 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//idk_b</uri>
       <name>idk_b</name>
-      <pose>-6.8883652561491191 -3.0369998147159554 2.5500000073461395 6.7963346731319066e-09 -2.517235352749733e-07 0.018067649799963142</pose>
+      <pose>-6.9140300750732422 -2.8783943653106689 2.8829998970031738 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//fort</uri>
       <name>fort</name>
-      <pose>7.2404439103740046 6.9442264963751175 2.0999983000018121 0.00019267665575459307 2.8360213746825392e-08 0.00010408492233105288</pose>
+      <pose>7.240379810333252 6.921259880065918 1.1601624488830566 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//pawn_b</uri>
       <name>pawn_b</name>
-      <pose>-4.8870259067684838 1.0944173060970073 2.0499999255608512 3.2491915215290073e-08 8.6389446872279476e-08 -0.0014456486553555824</pose>
+      <pose>-4.8831400871276855 1.0950100421905518 2.2554256916046143 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//horse_b</uri>
       <name>horse_b</name>
-      <pose>-7.1520673483058319 5.1517887442745298 2.0999994413839604 -1.2314282865716314e-08 4.9424409308277455e-09 -3.0745598854853666</pose>
+      <pose>-7.1359200477600098 4.9124298095703125 0 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//queen_b</uri>
       <name>queen_b</name>
-      <pose>-7.2569434172533507 -0.98457292358736048 -0.40000003551925573 -7.261540894449835e-07 1.9118702163955082e-07 -0.20413572608409614</pose>
+      <pose>-7.1842598915100098 -1.2445700168609619 -0.26656493544578552 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//king_b</uri>
       <name>king_b</name>
-      <pose>-7.0064170567373294 1.1642690638791577 2.5999999965973379 1.9481355482598617e-07 -3.0202917070866592e-09 0.003211413942261382</pose>
+      <pose>-6.9984698295593262 1.202489972114563 0.14319099485874176 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//fort_b</uri>
       <name>fort_b</name>
-      <pose>-7.0663874925149868 7.006754934684408 2.250000254678858 9.6626218379969279e-05 -6.1222072525343506e-07 -0.00222376808567935</pose>
+      <pose>-7.0639333724975586 7.0039801597595215 0.80435097217559814 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//horse_b</uri>
       <name>horse_b_1</name>
-      <pose>-7.0337584323773257 -5.0671292508795087 2.0999994273509688 1.2854612225680676e-10 -6.3623543336611023e-09 -3.1307389195625288</pose>
+      <pose>-6.9654857105827279 -5.0671342913001745 0 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//horse</uri>
       <name>horse_1</name>
-      <pose>6.9249072479311149 4.9952270878737828 2.5999998518787204 0.00019269587476046564 -2.025209343961882e-08 0.000115353961928104</pose>
+      <pose>6.925000523598789 5.0062401430557673 0 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//fort_b</uri>
       <name>fort_b_1</name>
-      <pose>-7.0686575813046897 -7.1179794060348236 2.250000451929294 9.6344848291756241e-05 -1.331943304332163e-07 -0.0042926533899444409</pose>
+      <pose>-7.0636501842985613 -7.1213106703192919 0.80435097217559814 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//fort</uri>
       <name>fort_1</name>
-      <pose>7.3371200561523438 -7.014291061698116 2.0999994273796965 0.00019266103391955689 9.2102879195836796e-20 -5.4003031799393532e-20</pose>
+      <pose>7.3371189238844181 -7.0139735414290714 1.1601599454879761 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//idk_b</uri>
       <name>idk_b_1</name>
-      <pose>-6.9899271637747837 3.0116011052410561 2.5500000311885667 -1.880547031505688e-07 -2.2811379219382648e-07 -0.0097333435766770154</pose>
+      <pose>-6.9736884655911169 3.0122832536949407 2.8829998970031738 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//pawn</uri>
       <name>pawn_1</name>
-      <pose>4.9769298554129486 -5.0390210590552904 2.0499989505088183 2.5328895571437129e-17 3.6766629428147914e-18 4.8857141404443856e-20</pose>
+      <pose>4.9769298554129486 -5.0390210590552904 2.232990026473999 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//pawn</uri>
       <name>pawn_2</name>
-      <pose>4.9006741609749067 -2.8619437074992393 2.0500000267240113 1.7412954804736845e-07 -2.1026811969052447e-07 0.0035032074610949373</pose>
+      <pose>4.9035897456949549 -2.8282867169340014 2.232990026473999 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//pawn</uri>
       <name>pawn_3</name>
-      <pose>4.9819334990557742 -1.0183128866155355 2.0499999334176504 2.3657351904207073e-08 9.9224150967161903e-08 1.4451519738876695e-05</pose>
+      <pose>4.9817316456771508 -1.0183516236571406 2.232990026473999 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//pawn</uri>
       <name>pawn_4</name>
-      <pose>4.8157217268694286 0.92907877714375764 2.0499999952286108 -1.9057324346213263e-07 -6.9016567466007113e-10 -0.00016787676990452939</pose>
+      <pose>4.8158052670139027 0.89535419135686567 2.232990026473999 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//pawn</uri>
       <name>pawn_5</name>
-      <pose>4.930948416834446 3.0277899187653099 2.0500000092598776 -8.2261940868376516e-09 -2.1292306213082474e-07 -0.0081014364413812857</pose>
+      <pose>4.9462215023093519 3.0423881948604752 2.232990026473999 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//pawn</uri>
       <name>pawn_6</name>
-      <pose>4.924817556026146 5.0118202005600674 2.0499999269246296 -9.5232860950721319e-08 9.3724124513111394e-11 0.0006579782862882941</pose>
+      <pose>4.927561235504978 4.9940476254604818 2.232990026473999 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//pawn</uri>
       <name>pawn_7</name>
-      <pose>4.8806706729692664 7.0740448908569666 2.0499989505088183 1.5033250894406579e-17 1.5249994328024198e-17 3.9180306643056835e-18</pose>
+      <pose>4.8806706729692664 7.0740448908569666 2.232990026473999 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//idk</uri>
       <name>idk_1</name>
-      <pose>6.8773348547391446 -3.1665897149955562 2.5499999993450215 5.2429024975824171e-10 2.1357271947589804e-07 -0.00027598155504635454</pose>
+      <pose>6.8773777218145877 -3.1709934005480394 2.7509799003601074 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//pawn_b</uri>
       <name>pawn_b_1</name>
-      <pose>-5.022755795261479 2.981784348009048 2.0500000004856371 -1.7276216285846233e-07 1.7274558717309726e-07 0.011886471548192624</pose>
+      <pose>-5.0418889694698032 2.9473885619398894 2.2554299831390381 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//pawn_b</uri>
       <name>pawn_b_2</name>
-      <pose>-4.9002491563989254 5.0286374440982282 2.0499990574531246 1.2608257151604761e-17 -2.7346150018718911e-17 -1.121364961481554e-17</pose>
+      <pose>-4.9002491563989254 5.0286374440982282 2.2554299831390381 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//pawn_b</uri>
       <name>pawn_b_3</name>
-      <pose>-4.8479242724100233 -0.90519967788019706 2.0499999404221092 1.3429504735199633e-07 5.5285055086645359e-08 0.00098978343790275913</pose>
+      <pose>-4.8434909190589401 -0.89552960570929763 2.2554299831390381 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//pawn_b</uri>
       <name>pawn_b_4</name>
-      <pose>-4.890209078344367 -2.9511863664419669 2.0499999999492902 -2.1515949166130591e-10 1.7033221226181555e-07 0.038629075807710377</pose>
+      <pose>-4.9202394716060853 -2.9498667520698962 2.2554299831390381 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//pawn_b</uri>
       <name>pawn_b_5</name>
-      <pose>-4.9669981911530785 -4.9903806474984487 2.0499999282572006 1.3725474956841294e-10 9.3659100786681926e-08 1.139828766031133e-07</pose>
+      <pose>-4.9852666481758288 -4.9904028321759863 2.2554299831390381 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//pawn_b</uri>
       <name>pawn_b_6</name>
-      <pose>-4.8780774882362667 7.0661503116140505 2.0499990574531246 -1.8713210027853569e-18 -6.834356874240285e-18 -1.5742166010412043e-17</pose>
+      <pose>-4.8780774882362667 7.0661503116140505 2.2554299831390381 0 0 0</pose>
     </include>
     <include>
       <uri>file:///home/alex/chess_ws/src/chess_gz_wrld/models//pawn_b</uri>
       <name>pawn_b_7</name>
-      <pose>-4.9432870522052159 -7.0756825403071035 2.0499990574531246 -2.9666665442273751e-17 2.5110159269236692e-18 -8.165546391850792e-18</pose>
+      <pose>-4.9432870522052159 -7.0756825403071035 2.2554299831390381 0 0 0</pose>
     </include>
     <light name='sun' type='directional'>
       <pose>0 0 10 0 0 0</pose>

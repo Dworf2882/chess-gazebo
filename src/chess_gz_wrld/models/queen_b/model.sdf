@@ -29,7 +29,7 @@
       </visual>
       
       <collision name="collision">
-        <pose> 0 0 3 0 0 0 </pose>
+        <pose> 0 0 0 0 0 0 </pose>
         <geometry>
           <cylinder>
             <radius>1</radius>

@@ -25,6 +25,6 @@ setup(
         ],
     },
     entry_points={
-        "console_scripts": [],
+        "console_scripts": ["chess_tf = chess_gz_wrld.chess_transf:main"],
     },
 )
