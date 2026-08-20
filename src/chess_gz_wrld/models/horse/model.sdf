@@ -5,7 +5,7 @@
     <static>false</static>
     
     <link name="body">
-      <pose> 0 0 0 1.5707 0 0</pose>
+      <pose> 0 0 0 1.5707 0 3.14</pose>
      
 
       <visual name="visual">
